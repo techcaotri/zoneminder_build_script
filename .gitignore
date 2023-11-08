@@ -33,5 +33,6 @@
 
 /*.deb
 zmc*.log*
+*.log
 zoneminder_*/
 zoneminder_1.*
