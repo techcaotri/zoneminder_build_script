@@ -1,0 +1,29 @@
+Doing local build
+Defaulting to bionic for distribution
+Defaulting to ZoneMinder upstream git
+release dir already exists. Continue...
+Generating package for bionic
+./do_debian_package_without_clone_source.sh: line 157: cd: zoneminder_1.36.33.orig: No such file or directory
+cp: cannot stat 'distros/ubuntu2004': No such file or directory
+./do_debian_package_without_clone_source.sh: line 185: debian/changelog: No such file or directory
+./do_debian_package_without_clone_source.sh: line 193: debian/NEWS: No such file or directory
+mark 3
+mark 5
+Reading package lists...
+Building dependency tree...
+Reading state information...
+equivs is already the newest version (2.1.0).
+devscripts is already the newest version (2.17.12ubuntu1.1).
+The following packages were automatically installed and are no longer required:
+  asymptote-doc audacity-data cuda-toolkit-12-config-common freeglut3
+  gconf-service gconf-service-backend gconf2-common gnustep-base-common
+  gnustep-base-runtime gnustep-common gnustep-gui-common libappindicator1
+  libart-2.0-2 libdbusmenu-gtk4 libflac++6v5 libgconf-2-4 libgnustep-base1.25
+  libgnustep-gui0.26 libgsl23 libgslcblas0 libindicator7 libjsoncpp1
+  libnvidia-cfg1-530 libnvidia-extra-530 libosmesa6 libportsmf0v5 librhash0
+  libsoundtouch1 libuv1 libvamp-hostsdk3v5 libwxbase3.1-3v5
+  libwxgtk3.1-gtk3-3v5 python-cairo python-gobject-2 python-gtk2 python-xlib
+  python3-asn1crypto ufw yudit-common
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 113 not upgraded.
+dh_testdir

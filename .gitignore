@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+*.log*
+*.deb
+zoneminder_*/
+zomeminder_1.36*
+
